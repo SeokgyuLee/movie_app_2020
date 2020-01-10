@@ -1,4 +1,3 @@
-# Movie App 2019
+# Movie App 2020
 
-React JS Fundamentals Course - Watching it in 2020
-
+React JS Fundamentals Course - Cloning it in 2020
