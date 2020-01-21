@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,6 +15,8 @@ body,
 #root,
 .container {
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .loader {
@@ -20,14 +25,5 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.movies {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.movies .movie {
-  width: 25%;
+  font-weight: 300;
 }
